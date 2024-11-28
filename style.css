@@ -1,0 +1,52 @@
+  body {
+    background: linear-gradient(to bottom, rgb(99, 99, 92), rgb(232, 236, 236));
+}
+
+.nav {
+    position: fixed;
+    top: 10;
+    left: 10;
+    background-color: deeppink;
+    width: 120px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+.cuadrado {
+    position: absolute;
+    left: 800px;
+    right: 10px;
+    top: 15px;
+    bottom: 5px;
+    width: 100px;
+    height: 100px;
+    background: #00ff40a1;
+}
+
+.rombo {
+    position: relative;
+    left: 900px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    width: 100px;
+    height: 100px;
+    background: #5900ff;
+    transform: rotate(45deg);
+}
+
+.circulo {
+    width: 95px;
+    height: 80px;
+    background-color: crimson;
+    border-radius: 75%;
+    position: static;
+    top: 75%;
+    left: 55%;
+    right: 40%;
+}
+
+summary {
+    font-size: 30px;
+    color: darkmagenta;
+    font-family: 'Times New Roman', Times, serif;
+}
